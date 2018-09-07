@@ -1,2 +1,2 @@
 # ideaspread
-Spread your ideas, someone can pay attention!
+Spread your ideas, someone may pay attention!
