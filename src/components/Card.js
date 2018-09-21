@@ -1,15 +1,15 @@
 import React, { PureComponent } from 'react';
-import PropTypes from 'prop-types';
 import CardFooter from './card/CardFooter';
 import CardBody from './card/CardBody';
 
 
 class Card extends PureComponent {
     render() {
+        const {title, content, createdAt, comments, likes} = this.props.card;
         return (
             <div class="card">
-                <CardBody></CardBody>
-                <CardFooter></CardFooter>
+                <CardBody title={title} content={content} createdAt={createdAt}></CardBody>
+                <CardFooter comments={comments} likes={likes}></CardFooter>
             </div>
         );
     }

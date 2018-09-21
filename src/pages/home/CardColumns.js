@@ -5,12 +5,9 @@ export default class CardColumns extends Component {
     render() {
         return (
             <div class="card-columns">
-                <Card></Card>
-                <Card></Card>
-                <Card></Card>
-                <Card></Card>
-                <Card></Card>
-                <Card></Card>
+                {this.props.cards.map((card)=>{
+                    return <Card card={card}/>
+                })}
             </div>
         )
     }

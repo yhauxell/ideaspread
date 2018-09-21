@@ -1,11 +1,11 @@
 import React from 'react'
 import CreationTime from './cardTitle/CreationTime';
 
-export default () => {
+export default (props) => {
     return (
         <div class="card-title">
-            <h2>What if we invent an square with rounded borders</h2>
-            <CreationTime></CreationTime>
+            <h2>{props.title}</h2>
+            <CreationTime createdAt={props.createdAt}></CreationTime>
         </div>
     )
 }

@@ -1,11 +1,11 @@
 import React from 'react'
 
-export default () => {
+export default (props) => {
     return (
         <span className="text-muted mr-2">
             <i class="far fa-heart"></i>
             <small>
-                100
+                {props.count}
             </small>
         </span>
     )

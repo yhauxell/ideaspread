@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default () => {
+export default (props) => {
   return (
-    <small class="text-muted">some minutes yau ago</small>
+    <small class="text-muted">{props.createdAt}</small>
   )
 }
