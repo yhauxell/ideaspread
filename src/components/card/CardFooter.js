@@ -2,11 +2,13 @@ import React from 'react'
 import CommentsIndicator from './cardFooter/CommentsIndicator';
 import LikesIndicator from './cardFooter/LikesIndicator';
 
-export default (props) => {
+const CardFooter = (props) => {
     return (
-        <div class="card-footer bg-transparent">
+        <div className="card-footer bg-transparent">
             <CommentsIndicator count={props.comments}></CommentsIndicator>
             <LikesIndicator count={props.likes}></LikesIndicator>
         </div>
     )
 }
+
+export default CardFooter;

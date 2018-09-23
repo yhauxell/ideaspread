@@ -1,12 +1,14 @@
 import React from 'react'
 
-export default (props) => {
+const LikesIndicator = (props) => {
     return (
         <span className="text-muted mr-2">
-            <i class="far fa-heart"></i>
+            <i className="far fa-heart"></i>
             <small>
                 {props.count}
             </small>
         </span>
     )
 }
+
+export default LikesIndicator;

@@ -2,11 +2,13 @@ import React from 'react'
 import CardTitle from './cardBody/CardTitle';
 import CardContent from './cardBody/CardContent';
 
-export default (props) => {
+const CardBody = ({title, content,createdAt}) => {
     return (
-        <div class="card-body">
-            <CardTitle title={props.title} createdAt={props.createdAt}></CardTitle>
-            <CardContent content={props.content}></CardContent>
+        <div className="card-body">
+            <CardTitle title={title} createdAt={createdAt}></CardTitle>
+            <CardContent content={content}></CardContent>
         </div>
     )
 }
+
+export default CardBody;

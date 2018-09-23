@@ -8,6 +8,7 @@ export default class Home extends Component {
         this.state = {
             cards: [
                 {
+                    id: "1",
                     title: "Idea number lorem",
                     createdAt: "a minute ago",
                     content: "This is a longer card with supporting text below as a natural lead-in to additional content.",
@@ -15,6 +16,7 @@ export default class Home extends Component {
                     likes: 100
                 },
                 {
+                    id: "2",
                     title: "Idea number ipsum",
                     createdAt: "Feb 24th, 2018",
                     content: "A natural lead-in to additional content this is a longer card with supporting text below as.",
@@ -22,6 +24,7 @@ export default class Home extends Component {
                     likes: 300
                 },
                 {
+                    id: "3",
                     title: "My very own number ipsum",
                     createdAt: "2 days ago",
                     content: "Supporting text below as a natural lead-in to additional content this is a longer card with.",
@@ -29,6 +32,7 @@ export default class Home extends Component {
                     likes: 0
                 },
                 {
+                    id: "4",
                     title: "Total idea number ipsum",
                     createdAt: "Feb 24th, 2018",
                     content: "Additional content this is a longer a natural lead-in to  card with supporting text below as.",
@@ -36,6 +40,7 @@ export default class Home extends Component {
                     likes: 3400
                 },
                 {
+                    id: "5",
                     title: "Revolutionary Idea number ipsum",
                     createdAt: "Sept 21th, 2018",
                     content: "Card with supporting text below as a natural lead-in to additional content this is a longer.",

@@ -7,7 +7,7 @@ class Card extends PureComponent {
     render() {
         const {title, content, createdAt, comments, likes} = this.props.card;
         return (
-            <div class="card">
+            <div className="card">
                 <CardBody title={title} content={content} createdAt={createdAt}></CardBody>
                 <CardFooter comments={comments} likes={likes}></CardFooter>
             </div>
