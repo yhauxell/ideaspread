@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './images/logo-opti-crop.png';
+import logo from './logo-ideaspread.svg';
 export const Navbar = (props) => {
     return (<nav className="navbar navbar-expand-lg navbar-light bg-primary">
         <div className="container">
